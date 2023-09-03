@@ -11,10 +11,12 @@
 #header{
     background-color: #FFF4E7;
 }
+
+        /* styles for nav part */
 #header .nav{
     max-width: 980px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px;
 
     display: flex;
     align-items: center;
@@ -52,6 +54,8 @@
 
 /* For small mobiles */
 @media screen and (min-width: 320px) and (max-width: 374px){
+
+            /* styles for nav part */
     #header .nav .header-logo{
         margin-left: 10px;
         margin-bottom: 15px;
@@ -71,6 +75,8 @@
 
 /* For medium mobiles */
 @media screen and (min-width: 375px) and (max-width: 424px){
+
+            /* styles for nav part */
     #header .nav .header-logo{
         margin: 0 0 15px 15px;
     }
@@ -78,6 +84,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding: 30px 0;
     }
     #header .nav .menu{
         display: flex;
@@ -91,14 +98,27 @@
 /* For large mobiles */
 @media screen and (min-width: 425px) and (max-width: 767px){
 
+            /* styles for nav part */
+    #header .nav .header-logo{
+        margin: 0 0 15px 15px;
+    }
+    #header .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+    #header .nav .menu{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    #header .nav li{
+        margin-bottom: 18px;
+    }
 }
 
 /* For tablet */
 @media screen  and (min-width: 768px) and (max-width: 1023px) {
-    
-}
-
-/* For laptops */
-@media screen and (min-width: 1200px) {
     
 }
