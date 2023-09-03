@@ -110,6 +110,21 @@
     #header .nav li{
         margin-bottom: 18px;
     }
+
+            /* header banner styles */
+    #header .header-banner{
+        text-align: left;
+        padding: 15px 30px;
+    }
+    #header .header-banner .banner-tittle{
+        width: 100%;
+        text-align: left;
+    }
+    #header .header-banner .banner-desc{
+        width: 90%;
+        margin: 15px 0;
+        text-align: left;
+    }
 }
 
 /* For medium mobiles */
@@ -123,7 +138,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 30px 0;
+        padding: 20px 0;
     }
     #header .nav .menu{
         display: flex;
@@ -131,6 +146,21 @@
     }
     #header .nav li{
         margin-bottom: 18px;
+    }
+    
+            /* header banner styles */
+    #header .header-banner{
+        text-align: left;
+        padding: 15px 30px;
+    }
+    #header .header-banner .banner-tittle{
+        width: 100%;
+        text-align: left;
+    }
+    #header .header-banner .banner-desc{
+        width: 90%;
+        margin: 15px 0;
+        text-align: left;
     }
 }
 
@@ -145,7 +175,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 30px 0;
+        padding: 20px 0;
     }
     #header .nav .menu{
         display: flex;
@@ -154,6 +184,20 @@
     }
     #header .nav li{
         margin-bottom: 18px;
+    }
+        
+            /* header banner styles */
+    #header .header-banner{
+        text-align: left;
+    }
+    #header .header-banner .banner-tittle{
+        width: 100%;
+        text-align: left;
+    }
+    #header .header-banner .banner-desc{
+        width: 90%;
+        margin: 20px 0;
+        text-align: left;
     }
 }
 
