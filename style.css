@@ -4,7 +4,17 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+.primary-btn{
+    padding: 10px;
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    cursor: pointer;
 
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
 
 /* Actual styles */
 /* Header styles */
@@ -45,12 +55,41 @@
     border-bottom: 2px solid #ffc179;
 }
 
+/* Header banner styles */
+#header .header-banner{
+    text-align: center;
+    margin-top: 60px;
 
-
-/* For smart watches */
-@media screen and (max-width: 319.8px){
-
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px;
 }
+#header .header-banner .banner-tittle{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 44px;
+    font-weight: 700;
+    color: #131313;
+}
+#header .header-banner .banner-desc{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+#header .header-banner img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* styles for main part */
+#main{
+    max-width: 980px;
+    margin: 100px auto;
+}
+
 
 /* For small mobiles */
 @media screen and (min-width: 320px) and (max-width: 374px){
@@ -118,7 +157,27 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* For tablet */
-@media screen  and (min-width: 768px) and (max-width: 1023px) {
+/* @media screen  and (min-width: 768px) and (max-width: 1023px) {
     
-}
+} */
+/* For smart watches */
+/* @media screen and (max-width: 319.8px){
+
+} */
