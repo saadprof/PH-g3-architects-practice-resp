@@ -87,7 +87,30 @@
 /* styles for main part */
 #main{
     max-width: 980px;
-    margin: 100px auto;
+    margin: 80px auto;
+}
+/* Team part styles */
+#main .team{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+#main .team .team-images{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+#main .team .team-images img{
+    width: 100%;
+}
+#main .team .team-text{
+    width: 80%;
+}
+#main .team-text .team-desc{
+    margin: 15px 0;
+    color: #727272;
 }
 
 
@@ -103,6 +126,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding: 20px;
     }
     #header .nav .menu{
         display: block;
