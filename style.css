@@ -71,7 +71,21 @@
 
 /* For medium mobiles */
 @media screen and (min-width: 375px) and (max-width: 424px){
-
+    #header .nav .header-logo{
+        margin: 0 0 15px 15px;
+    }
+    #header .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #header .nav .menu{
+        display: flex;
+        gap: 5px;
+    }
+    #header .nav li{
+        margin-bottom: 18px;
+    }
 }
 
 /* For large mobiles */
