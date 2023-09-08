@@ -117,6 +117,66 @@
 #main .team-text .team-desc{
     margin: 15px 0;
     color: #727272;
+    line-height: 26px;
+}
+
+
+/* Features section styles */
+#main .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+    gap: 50px;
+}
+#main .feature-content .content-tittle{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+}
+#main .feature-content .content-desc{
+    font-size: 16px;
+    color: #727272;
+    margin: 20px 0;
+}
+#main .feature-content .card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#main .feature-content{
+    width: 70%;
+}
+#main .feature-content .card h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+#main .feature-content .card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 15px;
+}
+#main .feature-img img{
+    width: 100%;
+    margin-left: 50px;
+}
+#main .feature-img .feature-exp{
+    width: 140px;
+    padding: 30px 0;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+
+    position: relative;
+    bottom: 60px;
 }
 
 
@@ -163,6 +223,23 @@
     #main .team .team-images, .team-text{
         width: 90%;
     }
+
+            /* Features section */
+    #main .features{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    #main .feature-content {
+        width: 100%;
+    }
+    #main .feature-content .content-desc{
+        padding: 0 20px;
+    }
+    #main .feature-img{
+        width: 80%;
+        margin: 0 5px;
+    }
 }
 
 /* For medium mobiles */
@@ -208,6 +285,23 @@
     }
     #main .team .team-images, .team-text{
         width: 90%;
+    }
+    
+            /* Features section */
+    #main .features{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    #main .feature-content {
+        width: 100%;
+    }
+    #main .feature-content .content-desc{
+        padding: 0 20px;
+    }
+    #main .feature-img{
+        width: 80%;
+        margin: 0 10px;
     }
 }
 
@@ -262,6 +356,23 @@
     }
     #main .team .team-images img{
         width: 40%;
+    }
+        
+            /* Features section */
+    #main .features{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    #main .feature-content {
+        width: 100%;
+    }
+    #main .feature-content .content-desc{
+        padding: 0 20px;
+    }
+    #main .feature-img{
+        width: 80%;
+        margin: 0 10px;
     }
 }
 
