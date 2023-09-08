@@ -152,7 +152,6 @@
     margin-bottom: 20px;
     padding: 30px;
 }
-
 #main .feature-content{
     width: 70%;
 }
@@ -184,6 +183,32 @@
     bottom: 60px;
 }
 
+
+/* Some facts section */
+#main .facts .facts-tittle{    
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+}
+#main .facts .facts-desc{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 15px;
+    line-height: 30px;
+    width: 60%;
+}
+#main .facts .fact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0 100px 0;
+}
+#main .facts .fact-container .fact{
+    padding: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
 
 /* For small mobiles */
 @media screen and (min-width: 320px) and (max-width: 374px){
